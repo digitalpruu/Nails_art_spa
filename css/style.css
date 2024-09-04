@@ -1281,7 +1281,8 @@ display: block;
 .primary-button{
      background: linear-gradient(207.8deg, #ff6961 16.69%, #fdcae1 100%);
      border-radius: 8px;
-     width: 400px;
+     max-width: 400px;
+     min-width: 200px;
      height: 80px;
      font-size: 2em;
      color: white;
@@ -1410,8 +1411,14 @@ padding-bottom: 33px;
 }
 
 .text-img{
-     width: 700px;
+     max-width: 700px;
 }
 .text-img figure img{
      border-radius: 16px;
+}
+.logo a img{
+     border-radius: 50%;
+}
+.logo{
+     width: 200px;
 }
